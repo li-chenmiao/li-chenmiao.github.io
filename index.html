@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chenmiao Li</title>
   <style>
     body {
@@ -12,92 +13,137 @@
       line-height: 1.6;
       color: #222;
     }
+
     h1 {
       font-size: 36px;
       margin-bottom: 0;
     }
+
     h2 {
       margin-top: 36px;
       border-bottom: 1px solid #ddd;
       padding-bottom: 6px;
     }
+
     a {
       color: #0645ad;
       text-decoration: none;
     }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    nav {
+      margin-bottom: 32px;
+      font-size: 15px;
+    }
+
+    nav a {
+      margin-right: 10px;
+    }
+
     .subtitle {
       font-size: 18px;
       color: #555;
       margin-top: 6px;
+      margin-bottom: 4px;
     }
-    .update-date {
-  font-size: 14px;
-  color: #666;
-}
+
+    .advisor {
+      font-size: 15px;
+      color: #555;
+      margin-top: 0;
+    }
+
     .paper-meta {
-  color: #555;
-  font-size: 15px;
-}
+      color: #555;
+      font-size: 15px;
+    }
+
+    .update-date {
+      font-size: 14px;
+      color: #666;
+    }
   </style>
 </head>
 
 <body>
+  <nav>
+    <a href="#about">About</a> |
+    <a href="#research">Research</a> |
+    <a href="#cv">CV</a> |
+    <a href="#contact">Contact</a>
+  </nav>
+
   <h1>Chenmiao Li</h1>
   <p class="subtitle">Ph.D. Candidate in Economics, University of Tokyo</p>
+  <p class="advisor">Advisor: Prof. Kosuke Aoki</p>
 
-  <h2>About</h2>
-<p>
-  I am a Ph.D. candidate in Economics at the University of Tokyo. 
-  My research lies at the intersection of monetary economics, macroeconomics, 
-  and digital finance. I study how digital money and payment infrastructures 
-  shape currency competition, international transactions, household consumption, 
-  and monetary policy transmission.
-</p>
-
-<p>
-  My current research examines stablecoin entry and monetary sovereignty, 
-  the role of payment speed in currency invoicing, and the effects of digital 
-  financial inclusion on household consumption in China.
-</p>
-
-<h2>Working Papers</h2>
-
-<p>
-  <strong>Stablecoins, Sovereignty, and Currency Competition</strong><br>
-  <span class="paper-meta">
-    Presentations: Japanese Economic Association 2026 Spring Meeting (Oral, scheduled);
-    Kyoto Workshop on Digitalization and Macroprudential Policy 2026;
-    Econometric Society Asia Meeting 2026;
-    Chinese Young Economist Forum 2025.
-  </span>
-</p>
-
-<p>
-  <strong>When Time is Money: Payment Speed and Optimal Currency of Invoicing</strong><br>
-  <span class="paper-meta">
-    Presentation: The University of Manchester and the University of Tokyo Joint Research Symposium 2024.
-  </span>
-</p>
-
-<p>
-  <strong>Digital Financial Inclusion and Household Consumption: Evidence from Chinese City-Level Panel Data</strong><br>
-  <span class="paper-meta">
-    Coauthor: Prof. Xiangnan Feng.<br>
-    Presentation: Japanese Economic Association 2026 Autumn Meeting (Poster, scheduled).
-  </span>
-</p>
-
- 
-  <h2>CV</h2>
+  <h2 id="about">About</h2>
   <p>
-  <a href="CV_Chenmiao_Li.pdf">Download my CV</a>
-  <br>
-  <span class="update-date">Last updated: May 2026</span>
+    I am a Ph.D. candidate in Economics at the University of Tokyo. 
+    My research lies at the intersection of monetary economics, macroeconomics, 
+    and digital finance. I study how digital money and payment infrastructures 
+    shape currency competition, international transactions, household consumption, 
+    and monetary policy transmission.
   </p>
 
-  <h2>Contact</h2>
   <p>
-    Email: li-chenmiao@g.ecc.u-tokyo.ac.jp / amber_lcm@126.com
+    My current research examines stablecoin entry and monetary sovereignty, 
+    the role of payment speed in currency invoicing, and the effects of digital 
+    financial inclusion on household consumption in China.
+  </p>
+
+  <h2>Research Interests</h2>
+  <p>
+    Monetary Economics; Macroeconomics; Digital Money and Payment Systems; 
+    Currency Competition; Financial Inclusion; Household Consumption.
+  </p>
+
+  <h2 id="research">Working Papers</h2>
+
+  <p>
+    <strong>Stablecoins, Sovereignty, and Currency Competition</strong><br>
+    This paper studies how fiat-pegged stablecoins reshape currency competition, 
+    seigniorage, and welfare in a Lagos–Wright economy.<br>
+    <span class="paper-meta">
+      Presentations: Japanese Economic Association 2026 Spring Meeting (Oral, scheduled);
+      Asia-Pacific Search and Matching Workshop 2026 (scheduled);
+      Kyoto Workshop on Digitalization and Macroprudential Policy 2026;
+      Econometric Society Asia Meeting 2026;
+      Chinese Young Economist Forum 2025.
+    </span>
+  </p>
+
+  <p>
+    <strong>When Time is Money: Payment Speed and Optimal Currency of Invoicing</strong><br>
+    This paper studies how payment speed affects firms’ currency invoicing decisions 
+    in international transactions.<br>
+    <span class="paper-meta">
+      Presentation: The University of Manchester and the University of Tokyo Joint Research Symposium 2024.
+    </span>
+  </p>
+
+  <p>
+    <strong>Digital Financial Inclusion and Household Consumption: Evidence from Chinese City-Level Panel Data</strong><br>
+    This paper examines how digital financial inclusion affects household consumption 
+    and its composition using Chinese city-level panel data.<br>
+    <span class="paper-meta">
+      Coauthor: Xiangnan Feng.<br>
+      Presentation: Japanese Economic Association 2026 Autumn Meeting (Poster, scheduled).
+    </span>
+  </p>
+
+  <h2 id="cv">CV</h2>
+  <p>
+    <a href="CV_Chenmiao_Li.pdf">Download my CV</a><br>
+    <span class="update-date">CV last updated: May 2026</span>
+  </p>
+
+  <h2 id="contact">Contact</h2>
+  <p>
+    Email: <a href="mailto:li-chenmiao@g.ecc.u-tokyo.ac.jp">li-chenmiao@g.ecc.u-tokyo.ac.jp</a>
   </p>
 </body>
 </html>
